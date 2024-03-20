@@ -15,7 +15,7 @@
         font-weight: normal;
         }
     body{
-    background-image: url("gameboy.svg");
+    background-image: url("gameboy1.svg");
     font-family: 'Lab DJR';
     background-size:cover;
     background-repeat: no-repeat;
@@ -38,7 +38,7 @@ grid-template-areas:
     "a a";
 }
 .hero{
-    margin-top: 300px;
+    margin-top: 250px;
 }
 .history {
 grid-area: h;

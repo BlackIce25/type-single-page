@@ -15,8 +15,10 @@
         font-weight: normal;
         }
     body{
-    background-color: lightsteelblue;
+    background-image: url("gameboy.svg");
     font-family: 'Lab DJR';
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
@@ -35,7 +37,9 @@ grid-template-areas:
     "h v"
     "a a";
 }
-
+.hero{
+    margin-top: 300px;
+}
 .history {
 grid-area: h;
 }

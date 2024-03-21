@@ -20,6 +20,14 @@
     background-size:cover;
     background-repeat: no-repeat;
 }
+
+.fixed{
+    position: fixed;
+    width:100vw;
+    height:100vh;
+    display: grid;
+    z-index:200;
+}
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
     width: min(100% - 3rem, 80ch);

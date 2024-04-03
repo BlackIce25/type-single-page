@@ -21,6 +21,13 @@
     background-repeat: no-repeat;
 }
 
+h3{
+    font-weight:20; 
+    text-align: center;
+    font-size: 3em;
+    animation: weightChange 7s infinite;
+}
+
 .fixed{
     position: fixed;
     width:100vw;
@@ -33,10 +40,11 @@
     width: min(100% - 3rem, 80ch);
     margin-inline: auto;
 }
+
 /* how the page wrapper appears on desktop */
 
-@media only screen and (min-width:800px){
-.page-wrapper{
+@media only screen and (min-width:900px){
+/* .page-wrapper{
 display: grid;
 grid-gap: 25px;
 grid-template-columns: 1fr 1fr;
@@ -44,6 +52,14 @@ grid-template-rows: auto;
 grid-template-areas: 
     "h v"
     "a a";
+} */
+
+h3{
+    font-weight:20; 
+    text-align: center;
+    font-size: 5em;
+    /* color:blue; */
+    animation: weightChange 7s infinite;
 }
 .hero{
     margin-top: 250px;
@@ -63,15 +79,14 @@ grid-area: a;
 /* CSS for the footer */
 footer{
     background-color: gray;
+    width:100%;
+    margin-top:-25px;
+    padding:10px;
+
 }
 
 /* variable font animation */
-h3{
-    font-weight:20; 
-    text-align: center;
-    font-size: 5em;
-    animation: weightChange 7s infinite;
-}
+
 
 @keyframes weightChange {
     0%{
